@@ -238,7 +238,7 @@ var tlOpening = new TimelineMax({
   onStart: function(){
     TweenMax.fromTo('#container-p5', 8, {autoAlpha:0}, {autoAlpha:1})
   },
-  delay: 0.5
+  delay: 1
 });
 
 tlOpening
